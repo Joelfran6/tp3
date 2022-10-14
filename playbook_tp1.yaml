@@ -1,0 +1,14 @@
+- hosts: test
+  roles:
+  - name: openldap
+    tags:
+    - ldap
+    - docker
+  - name: traefik
+    tags:  
+    - traefik
+    - docker
+  - name: whoami
+    tags:
+    - whoami
+    - docker

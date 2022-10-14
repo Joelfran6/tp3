@@ -1,0 +1,4 @@
+test:
+  hosts:
+    mypc:
+      ansible_connection: local

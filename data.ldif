@@ -1,0 +1,194 @@
+dn: ou=People,dc=ansible,dc=fr
+objectClass: top
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Group,dc=ansible,dc=fr
+objectClass: top
+objectClass: organizationalUnit
+ou: Group
+
+dn: cn=jsmith,ou=Group,dc=ansible,dc=fr
+cn: jsmith
+objectclass: posixGroup
+objectclass: top
+gidnumber: 1000
+
+dn: uid=jsmith,ou=People,dc=ansible,dc=fr
+objectclass: top
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: organizationalPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: jsmith
+userpassword: {SSHA}hByXKf/iYOsjt2UWIrlO6QY/XuPt6Q6F
+loginshell: /bin/bash
+gidnumber: 1000
+uidnumber: 1000
+homeDirectory: /home/jsmith
+cn:: Sm9obiBTbWl0aA==
+sn:: U21pdGg=
+givenName:: Sm9obg==
+
+dn: cn=sparker,ou=Group,dc=ansible,dc=fr
+cn: sparker
+objectclass: posixGroup
+objectclass: top
+gidnumber: 1001
+
+dn: uid=sparker,ou=People,dc=ansible,dc=fr
+objectclass: top
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: organizationalPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: sparker
+userpassword: {SSHA}NzMepGE0WTMHIl2VBRoaVYQ+OPltu4BI
+loginshell: /bin/bash
+gidnumber: 1001
+uidnumber: 1001
+homeDirectory: /home/sparker
+cn:: U3RldmVuIFBhcmtlcg==
+sn:: UGFya2Vy
+givenName:: U3RldmVu
+
+dn: cn=bjensen,ou=Group,dc=ansible,dc=fr
+cn: bjensen
+objectclass: posixGroup
+objectclass: top
+gidnumber: 1002
+
+dn: uid=bjensen,ou=People,dc=ansible,dc=fr
+objectclass: top
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: organizationalPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: bjensen
+userpassword: {SSHA}uZa05faeNgmJQxOq/628P+Er7Jtpd1v6
+loginshell: /bin/bash
+gidnumber: 1002
+uidnumber: 1002
+homeDirectory: /home/bjensen
+cn:: QmFyYmFyYSBKZW5zZW4=
+sn:: SmVuc2Vu
+givenName:: QmFyYmFyYQ==
+
+dn: cn=smcadam,ou=Group,dc=ansible,dc=fr
+cn: smcadam
+objectclass: posixGroup
+objectclass: top
+gidnumber: 1003
+
+dn: uid=smcadam,ou=People,dc=ansible,dc=fr
+objectclass: top
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: organizationalPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: smcadam
+userpassword: {SSHA}kMLPoVyZpk2Qk36Qw8Tr6Oci1N5JjlNU
+loginshell: /bin/bash
+gidnumber: 1003
+uidnumber: 1003
+homeDirectory: /home/smcadam
+cn:: U2NvdHQgTWNBZGFt
+sn:: TWNBZGFt
+givenName:: U2NvdHQ=
+
+dn: cn=pposit,ou=Group,dc=ansible,dc=fr
+cn: pposit
+objectclass: posixGroup
+objectclass: top
+gidnumber: 1004
+
+dn: uid=pposit,ou=People,dc=ansible,dc=fr
+objectclass: top
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: organizationalPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: pposit
+userpassword: {SSHA}gVihtrLtiomDJoBZdzv+xgQMq70WdGxm
+loginshell: /bin/bash
+gidnumber: 1004
+uidnumber: 1004
+homeDirectory: /home/pposit
+cn:: UGF1bCBQb3NpdGlvbg==
+sn:: UG9zaXRpb24=
+givenName:: UGF1bA==
+
+dn: cn=npaloma,ou=Group,dc=ansible,dc=fr
+cn: npaloma
+objectclass: posixGroup
+objectclass: top
+gidnumber: 1005
+
+dn: uid=npaloma,ou=People,dc=ansible,dc=fr
+objectclass: top
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: organizationalPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: npaloma
+userpassword: {SSHA}6oUTkPLHwtR9JDh9ET1hvOa9U0ghau8T
+loginshell: /bin/bash
+gidnumber: 1005
+uidnumber: 1005
+homeDirectory: /home/npaloma
+cn:: TmnDsWEgUGFsb21h
+sn:: UGFsb21h
+givenName:: TmnDsWE=
+
+dn: cn=blee,ou=Group,dc=ansible,dc=fr
+cn: blee
+objectclass: posixGroup
+objectclass: top
+gidnumber: 1006
+
+dn: uid=blee,ou=People,dc=ansible,dc=fr
+objectclass: top
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: organizationalPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: blee
+userpassword: {SSHA}l+Ns1uS0kUCe+/c7fdh9QNRHgKSzkbgb
+loginshell: /bin/bash
+gidnumber: 1006
+uidnumber: 1006
+homeDirectory: /home/blee
+cn:: 55m9IOadjg==
+sn:: 5p2O
+givenName:: 55m9
+
+dn: cn=dndiaye,ou=Group,dc=ansible,dc=fr
+cn: dndiaye
+objectclass: posixGroup
+objectclass: top
+gidnumber: 1007
+
+dn: uid=dndiaye,ou=People,dc=ansible,dc=fr
+objectclass: top
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: organizationalPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+uid: dndiaye
+userpassword: {SSHA}xeE94aDkSB5h+iWT7zL3AmeH1+lVGwlY
+loginshell: /bin/bash
+gidnumber: 1007
+uidnumber: 1007
+homeDirectory: /home/dndiaye
+cn:: RGlhYm91IE5kaWF5ZQ==
+sn:: TmRpYXll
+givenName:: RGlhYm91
+

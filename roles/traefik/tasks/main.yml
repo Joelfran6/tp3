@@ -1,0 +1,17 @@
+- name: Create the Traefik network
+  docker_network:
+    name: ldap
+
+- name: Create OpenLDAP folder
+  ansible.builtin.file:
+    path: "{{traefik_home}}"
+    state: directory 
+
+- name: Copy docker-compose.yaml.j2
+  ansible.builtin.template:
+    src: docker-compose.yaml.j2
+    dest: "{{traefik_home}}/docker-compose.yaml"
+
+- name: start openLDAP service
+  community.general.docker_compose: 
+    project_src: "{{traefik_home}}"
